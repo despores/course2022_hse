@@ -12,6 +12,8 @@
 		E16E465A281712C800A1F314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E4659281712C800A1F314 /* ViewController.swift */; };
 		E16E465F281712CA00A1F314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16E465E281712CA00A1F314 /* Assets.xcassets */; };
 		E16E4662281712CA00A1F314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16E4660281712CA00A1F314 /* LaunchScreen.storyboard */; };
+		E19AABFE2822866B00D7CD10 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19AABFD2822866B00D7CD10 /* LoginView.swift */; };
+		E19AAC022822868900D7CD10 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19AAC012822868900D7CD10 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E16E465E281712CA00A1F314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E16E4661281712CA00A1F314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E16E4663281712CA00A1F314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19AABFD2822866B00D7CD10 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E19AAC012822868900D7CD10 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		E16E4654281712C800A1F314 /* course2022_hse_chat */ = {
 			isa = PBXGroup;
 			children = (
+				E19AABF72822860700D7CD10 /* UILayer */,
 				E16E4655281712C800A1F314 /* AppDelegate.swift */,
 				E16E4657281712C800A1F314 /* SceneDelegate.swift */,
 				E16E4659281712C800A1F314 /* ViewController.swift */,
@@ -62,6 +67,39 @@
 				E16E4663281712CA00A1F314 /* Info.plist */,
 			);
 			path = course2022_hse_chat;
+			sourceTree = "<group>";
+		};
+		E19AABF72822860700D7CD10 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				E19AABF82822861200D7CD10 /* Authentication */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		E19AABF82822861200D7CD10 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E19AABFA2822862300D7CD10 /* Login */,
+				E19AABF92822861D00D7CD10 /* SignUp */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E19AABF92822861D00D7CD10 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				E19AAC012822868900D7CD10 /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		E19AABFA2822862300D7CD10 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E19AABFD2822866B00D7CD10 /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16E465A281712C800A1F314 /* ViewController.swift in Sources */,
+				E19AAC022822868900D7CD10 /* SignUpView.swift in Sources */,
 				E16E4656281712C800A1F314 /* AppDelegate.swift in Sources */,
+				E19AABFE2822866B00D7CD10 /* LoginView.swift in Sources */,
 				E16E4658281712C800A1F314 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
