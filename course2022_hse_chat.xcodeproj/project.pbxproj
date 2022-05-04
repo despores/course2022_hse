@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EE84F672822882B00DE2433 /* FeedGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F662822882B00DE2433 /* FeedGraph.swift */; };
+		9EE84F6A2822885600DE2433 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F692822885600DE2433 /* FeedView.swift */; };
+		9EE84F6E282288A700DE2433 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F6D282288A700DE2433 /* FeedCell.swift */; };
+		9EE84F70282288FA00DE2433 /* FeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F6F282288FA00DE2433 /* FeedInteractor.swift */; };
+		9EE84F722822890C00DE2433 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F712822890C00DE2433 /* FeedPresenter.swift */; };
+		9EE84F7928228B1300DE2433 /* ChatsGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F7828228B1300DE2433 /* ChatsGraph.swift */; };
+		9EE84F7B28228B3400DE2433 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F7A28228B3400DE2433 /* ChatsView.swift */; };
+		9EE84F7D28228B5600DE2433 /* ChatsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F7C28228B5600DE2433 /* ChatsInteractor.swift */; };
+		9EE84F7F28228B6E00DE2433 /* ChatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F7E28228B6E00DE2433 /* ChatsPresenter.swift */; };
+		9EE84F8128228B9100DE2433 /* ChatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F8028228B9100DE2433 /* ChatsCell.swift */; };
+		9EE84F8528228BE800DE2433 /* ProfileGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F8428228BE800DE2433 /* ProfileGraph.swift */; };
+		9EE84F8828228C0400DE2433 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F8728228C0400DE2433 /* ProfileView.swift */; };
+		9EE84F8A28228C1300DE2433 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F8928228C1300DE2433 /* ProfileInteractor.swift */; };
+		9EE84F8C28228C2600DE2433 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F8B28228C2600DE2433 /* ProfilePresenter.swift */; };
+		9EE84F8E28228C5A00DE2433 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F8D28228C5A00DE2433 /* ProfileCell.swift */; };
+		9EE84F9028228C8D00DE2433 /* OrserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE84F8F28228C8D00DE2433 /* OrserDetailsView.swift */; };
 		E16E4656281712C800A1F314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E4655281712C800A1F314 /* AppDelegate.swift */; };
 		E16E4658281712C800A1F314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E4657281712C800A1F314 /* SceneDelegate.swift */; };
 		E16E465A281712C800A1F314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E4659281712C800A1F314 /* ViewController.swift */; };
@@ -17,6 +33,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EE84F662822882B00DE2433 /* FeedGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedGraph.swift; sourceTree = "<group>"; };
+		9EE84F692822885600DE2433 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		9EE84F6D282288A700DE2433 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		9EE84F6F282288FA00DE2433 /* FeedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedInteractor.swift; sourceTree = "<group>"; };
+		9EE84F712822890C00DE2433 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
+		9EE84F7828228B1300DE2433 /* ChatsGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsGraph.swift; sourceTree = "<group>"; };
+		9EE84F7A28228B3400DE2433 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		9EE84F7C28228B5600DE2433 /* ChatsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsInteractor.swift; sourceTree = "<group>"; };
+		9EE84F7E28228B6E00DE2433 /* ChatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsPresenter.swift; sourceTree = "<group>"; };
+		9EE84F8028228B9100DE2433 /* ChatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsCell.swift; sourceTree = "<group>"; };
+		9EE84F8428228BE800DE2433 /* ProfileGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGraph.swift; sourceTree = "<group>"; };
+		9EE84F8728228C0400DE2433 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9EE84F8928228C1300DE2433 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		9EE84F8B28228C2600DE2433 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		9EE84F8D28228C5A00DE2433 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		9EE84F8F28228C8D00DE2433 /* OrserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrserDetailsView.swift; sourceTree = "<group>"; };
 		E16E4652281712C800A1F314 /* course2022_hse_chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = course2022_hse_chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16E4655281712C800A1F314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16E4657281712C800A1F314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +74,104 @@
 		9EE84F64282286DC00DE2433 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9EE84F7528228ACF00DE2433 /* OrderDetails */,
+				9EE84F7428228AC500DE2433 /* Profile */,
+				9EE84F7328228AB700DE2433 /* Chats */,
+				9EE84F6B2822887600DE2433 /* Feed */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		9EE84F65282287EC00DE2433 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				9EE84F662822882B00DE2433 /* FeedGraph.swift */,
+				9EE84F692822885600DE2433 /* FeedView.swift */,
+				9EE84F6F282288FA00DE2433 /* FeedInteractor.swift */,
+				9EE84F712822890C00DE2433 /* FeedPresenter.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		9EE84F6B2822887600DE2433 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				9EE84F6C2822888400DE2433 /* Cell */,
+				9EE84F65282287EC00DE2433 /* Table */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		9EE84F6C2822888400DE2433 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9EE84F6D282288A700DE2433 /* FeedCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9EE84F7328228AB700DE2433 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				9EE84F7628228AEA00DE2433 /* Cell */,
+				9EE84F7728228AF100DE2433 /* Table */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		9EE84F7428228AC500DE2433 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9EE84F8228228BBD00DE2433 /* Cell */,
+				9EE84F8328228BC300DE2433 /* Table */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9EE84F7528228ACF00DE2433 /* OrderDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9EE84F8F28228C8D00DE2433 /* OrserDetailsView.swift */,
+			);
+			path = OrderDetails;
+			sourceTree = "<group>";
+		};
+		9EE84F7628228AEA00DE2433 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9EE84F8028228B9100DE2433 /* ChatsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9EE84F7728228AF100DE2433 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				9EE84F7828228B1300DE2433 /* ChatsGraph.swift */,
+				9EE84F7A28228B3400DE2433 /* ChatsView.swift */,
+				9EE84F7C28228B5600DE2433 /* ChatsInteractor.swift */,
+				9EE84F7E28228B6E00DE2433 /* ChatsPresenter.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		9EE84F8228228BBD00DE2433 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9EE84F8D28228C5A00DE2433 /* ProfileCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9EE84F8328228BC300DE2433 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				9EE84F8428228BE800DE2433 /* ProfileGraph.swift */,
+				9EE84F8728228C0400DE2433 /* ProfileView.swift */,
+				9EE84F8928228C1300DE2433 /* ProfileInteractor.swift */,
+				9EE84F8B28228C2600DE2433 /* ProfilePresenter.swift */,
+			);
+			path = Table;
 			sourceTree = "<group>";
 		};
 		E16E4649281712C800A1F314 = {
@@ -180,11 +308,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE84F6A2822885600DE2433 /* FeedView.swift in Sources */,
 				E16E465A281712C800A1F314 /* ViewController.swift in Sources */,
+				9EE84F6E282288A700DE2433 /* FeedCell.swift in Sources */,
+				9EE84F8A28228C1300DE2433 /* ProfileInteractor.swift in Sources */,
+				9EE84F7D28228B5600DE2433 /* ChatsInteractor.swift in Sources */,
+				9EE84F7928228B1300DE2433 /* ChatsGraph.swift in Sources */,
+				9EE84F70282288FA00DE2433 /* FeedInteractor.swift in Sources */,
+				9EE84F7B28228B3400DE2433 /* ChatsView.swift in Sources */,
+				9EE84F8528228BE800DE2433 /* ProfileGraph.swift in Sources */,
 				E19AAC022822868900D7CD10 /* SignUpView.swift in Sources */,
 				E16E4656281712C800A1F314 /* AppDelegate.swift in Sources */,
+				9EE84F7F28228B6E00DE2433 /* ChatsPresenter.swift in Sources */,
 				E19AABFE2822866B00D7CD10 /* LoginView.swift in Sources */,
 				E16E4658281712C800A1F314 /* SceneDelegate.swift in Sources */,
+				9EE84F8128228B9100DE2433 /* ChatsCell.swift in Sources */,
+				9EE84F672822882B00DE2433 /* FeedGraph.swift in Sources */,
+				9EE84F8C28228C2600DE2433 /* ProfilePresenter.swift in Sources */,
+				9EE84F9028228C8D00DE2433 /* OrserDetailsView.swift in Sources */,
+				9EE84F8828228C0400DE2433 /* ProfileView.swift in Sources */,
+				9EE84F8E28228C5A00DE2433 /* ProfileCell.swift in Sources */,
+				9EE84F722822890C00DE2433 /* FeedPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
